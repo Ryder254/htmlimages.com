@@ -1,0 +1,132 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+body {
+ background-color:rgba(20,220,20,0.5);
+}
+h1 {
+ color:red;
+ font-family:ALGERIAN;
+ text-align:center;
+}
+p {
+ font-family:lucida calligraphy;
+}
+h2 {
+  font-family:broadway;
+}
+h3 {
+  font-family:elephant;
+}
+#color {
+  color:green;
+  background-color:transparent;
+  text-decoration:none;
+}
+#butt {
+ color:white;
+ background-color:black;
+}
+#butt:hover {
+ background-color:red;
+}
+h4 {
+ font-size:20px;
+}
+</style>
+<title>HTML LINKS</title>
+<body>
+<h1 id="HL">HTML LINKS</h1>
+<p>In this chapter I Ian Muindi is going to study about the Html links and the different formats of the links<br>Links allow users to click their way from page to page<p>
+<h2>HTML links (hyperlink)</h2>
+<p>Html links are hyperlinks.<br>You can click a link to jump to another page</p>
+<h3>HTML links syntax</h3>
+<p>The HTML <mark><b>&lt;a&gt;</b></mark> tag defines a hyperlink.It also has the following syntax</p>
+<p><b><mark><ins>&lt;a href="url">link text&lt;/a&gt;</ins></mark></b></p>
+<p>Only the link text is visible in the web page<br>By default, links will appear as follows in the web page</p>
+<ul style="list-style-type:disc">
+ <li>An unvisited link will be underlined and blue</li>
+ <li>A visited link will appear as underlined and purple in  color</li>
+ <li>An active link will be underlined and red in color</li>
+</ul>
+<p><span style="color:purple;background-color:rgba(140,140,140,0.3);font-family:CASTELLAR;"><b><mark>Tip!</mark>Links can of course be styled with CSS, to get another look!</b></span></p>
+<h3>HTML links- The target attribute</h3>
+<p> By default the linked page will be displayed in the current browsing window.<br>To change this you must specify another target for the link.The <mark><b>target</b></mark> attribute can have the following targets</p>
+<dl type="i">
+ <dt><b><mark>___self</mark></b>-default.</dt>
+ <dd>Opens the document in the same window/tab as it was clicked<dd>
+ <dt><b><mark>___blank</mark></b>.</dt>
+ <dd>Opens the clicked document in a new window/tab</dd>
+ <dt><b><mark>___parent</mark></b></dt>
+ <dd>Opens the clicked document in a the parents frame.</dd>
+ <dt><b><mark>___top</mark></b></dt>
+ <dd>Opens the clicked document in the full body of the window</dd>
+</dl>
+<h3>Here are the examples</h3>
+<h3>Here are the targets examples</h3>
+<p><a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_self">Self target</a> Click the self target and see the results</p>
+<p><a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_blank">Blank target</a> Click the blank target and see the results</p>
+<p><a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_parent">Parent target</a> Click the Parent target link and see the results</p>
+<p><a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_top">Top target</a> Click on the top link target link and see the result</p>
+<h3>Absolute urls vs Relative urls</h3>
+<p>A local link( a link to a page within the same website) is specefied with a relative URL (without the "https://www" port)</p>
+<h3>HTML links-use an image as a link</h3>
+<p>To use an image as a link, just put the <mark><b>img</b></mark> tag inside the <mark><b>a</b></mark> tag<br>Here is an example</p>
+<p style="text-align:left"><a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_blank"><img src="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\FB_IMG_16577352141792119.jpg" style="width:50px;height:70px"></a></p>
+<h3>link to an email address</h3>
+<p>Use <mark><b>mailto:</b></mark> inside the <mark>href</mark> attribute to creat a link that opens the user's email program(to let them send email to new email)<br>Here is an example:</p>
+<a href="mailto:ianmuindi11706@gmail.com">Send Me An Email</a>
+<h3>Button as a link</h3>
+<p>To use a button as a link, you have to add some Javascript code<br>Javascript allows you to specify what happen at a certain event, such as 'click a button<br>To use a button to open a link we use the <mark><b>button</b></mark> attribute</p>
+<a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_blank"><button type="button" style="width:100px;height:40px;background-color:rgba(150,150,150,0.5);color:green;">Click Here</button></a>
+<h2>HTML links-Different Colors</h2>
+<p>A html link is viewed in different color whether it is:</p>
+<ul style="list-style-type:square:>
+ <li>Visited</li>
+ <li>Unvisited</li>
+ <li>Active</li>
+</ul>
+<h3>HTML link colors</h3>
+<p>By Default, a link will appear like this in all browsers</p>
+<ul style="list-style-type:disc">
+ <li>An active link appears red</li>
+ <li>A visited link appears purple</li>
+ <li>An unvisited link appears blue</li>
+</ul>
+<p>It is possible to change this color using CSS</p>
+<p>In the examples below the link colors has been change to green color</p> 
+<a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_blank" id="color">This is a link</a>
+<p>The link above has a different color as the default color of a no visited link</p> 
+<h3>Link button</h3>
+<p>It is also posible to change the apperance of the link button</p>
+<p>Here comes an example</p>
+<a href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html" target="_blank"><button type="button" id="butt" style="width:120px;height:40px;">Click me</button></a>
+<h3>HTML links-create a bookmark</h3>
+<p>Html link can be used to creat bookmarks so that the users can jump to specific area of a web page</p>
+<p>Here is an example of a book mark</p>
+<div style="background-color:rgba(40,40,40,0.2);text-align:center;">
+<br><a href="#CH5">Chapter five</a><br>
+<a href="#CH7">Chapter seven</a><br>
+<a href="#CH10">Chapter ten</a><br>
+<span style="text-align:center">
+<h4>Chapter One</h4><p>bra bra bra</p>
+<h4>Chapter two</h4><p>bra bra bra</p>
+<h4>Chapter three</h4><p>bra bra bra</p>
+<h4>Chapter four</h4><p>bra bra bra</p>
+<h4 id="CH5">Chapter five</h4><p>bra bra bra</p>
+<h4>Chapter six</h4><p>bra bra bra</p>
+<h4 id="CH7">Chapter seven</h4><p>bra bra bra</p>
+<h4>Chapter eight</h4><p>bra bra bra </p>
+<h4>Chapter nine</h4><p>bra bra bra</p>
+<h4 id="CH10">Chapter ten</h4><p>bra bra bra</p></span></div> 
+<p style="text-align:center;"><img src="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\IMG_20220717_170225_012.jpg" alt="Me and my one and only" style="max-width:300px;height:300px;"></p>
+<p style="text-align:right;"><a href="#HL"><button type="circle">Back to top</button></a></p> <h1>CODED BY IAN MUINDI</h1>
+<footer style="background-color:rgba(150,150,150,0.6);">
+<a href="mailto:ianmuindi11706@gmail.com">Email Me</a>
+<p>WhatsApp me at <b><ins>+254798411879</ins></b></p></footer>
+</body>
+</html>

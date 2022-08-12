@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html Poem Problem</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\FB_IMG_16577352141792119.jpg;">
+<style>
+h1 {
+  background-color:#0000ff;
+  font-family:ALGELIAN;
+  text-align:center;
+  color:#ff0000;
+}
+p {
+  text-align:left;
+  font-family:lucida calligraphy;
+  color:rgb(150,100,220);
+  font-size:20px;
+}
+h2 {
+   color:black;
+   font-family: Broadway;
+   text-align:center;
+}
+body {
+   background-color:pink;
+   border:2px double green;
+   padding:10px;
+   margin:15px;
+}
+pre {
+   text-align:center;
+   background-image:url(C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\IMG_20220717_170225_012.jpg);
+}
+</style>
+</head>
+<body>
+<h1> HTML EXERCISE ON POEM PROBLEM</h1>
+<p> In this section I ian muindi is going to do a practical on poem problem<br>As discussed ealier in the html tutorial, a browser ignores extra spaces which may be on a paragraph</p>
+<p style="font-family:CASTELLAR;"><b><mark>Lets think about a poem which has short lines that one must space</mark></b></p>
+<p>In order to maintain the spaces in a poem,<br>We uses a <mark><em><strong><ins>PRE</ins></strong></em></mark> attribute meaning preserving the spaces and other poem styles.</p>
+<h2>Here is an example of a poem whoses spaces are not preserved, but are in the coding<h2>
+         <p>I am not for everyone.
+       I know my truth, i know who I am,
+       I know what I do and do not bring,
+      to the table.I'm not easy to deal with
+           but I do bring tons of value.
+            I bring love and strength,
+         but I am not perfect, and if
+       I don't fit in with a person or group
+          that is okay with me.</p>
+<p> As seen above, the poem did not follow the poem rules of short sentences and spaces since we used a paragraph tag which ignores some unnecessaly spaces.</p>
+<h2>Here is another example where the <mark><b>pre</b></mark> attribute has been used<h2>
+<pre>
+          I am not for everyone.
+       I know my truth, i know who I am,
+       I know what I do and do not bring,
+      to the table.I'm not easy to deal with
+           but I do bring tons of value.
+            I bring love and strength,
+         but I am not perfect, and if
+       I don't fit in with a person or group
+          that is okay with me.
+</pre>
+<img src="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\IMG_20220717_170225_012.jpg" alt="My world and me" style="width:250px;height:250px;">
+<h1>CODED BY IAN MUINDI<h1>
+</body>
+</html>
